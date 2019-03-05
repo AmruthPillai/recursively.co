@@ -1,1 +1,15 @@
-/* You can add global styles to this file, and also import other style files */
+// Override Styles
+@import '~src/scss/overrides';
+
+// Bootstrap
+@import '~node_modules/bootstrap/scss/bootstrap.scss';
+
+html, body {
+  background-color: $light;
+  font-family: 'Overpass', sans-serif;
+  line-height: 1.8rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Rajdhani', sans-serif;
+}
