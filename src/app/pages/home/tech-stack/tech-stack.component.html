@@ -7,6 +7,8 @@
 
 <div class="row mx-5 px-5 my-5 pb-5">
   <div class="col-2 mb-5 pb-5 d-flex justify-content-center align-items-center" *ngFor="let ts of techStack">
-    <div class="logo d-flex justify-content-center align-items-center"><img class="img-fluid" [src]="ts.path" [alt]="ts.path"></div>
+    <div class="logo text-center">
+      <img class="img-fluid" [src]="ts.path" [alt]="ts.path">
+    </div>
   </div>
 </div>
