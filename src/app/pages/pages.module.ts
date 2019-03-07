@@ -3,12 +3,14 @@ import { CommonModule } from '@angular/common';
 import { HomeComponent } from './home/home.component';
 import { LandingComponent } from './home/landing/landing.component';
 import { ProgramOverviewComponent } from './home/program-overview/program-overview.component';
+import { TechStackComponent } from './home/tech-stack/tech-stack.component';
 
 @NgModule({
   declarations: [
     HomeComponent,
     LandingComponent,
-    ProgramOverviewComponent
+    ProgramOverviewComponent,
+    TechStackComponent
   ],
   imports: [
     CommonModule
