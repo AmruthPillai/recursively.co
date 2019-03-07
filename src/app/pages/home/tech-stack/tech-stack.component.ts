@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import anime from 'animejs/lib/anime.es.js';
 
 @Component({
   selector: 'app-tech-stack',
@@ -31,6 +32,17 @@ export class TechStackComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+  }
+
+  animate(inViewport: boolean) {
+    if (inViewport) {
+      anime({
+        targets: '.logo img',
+        opacity: 1,
+        easing: 'easeInOutExpo',
+        delay: anime.stagger(200)
+      });
+    }
   }
 
 }

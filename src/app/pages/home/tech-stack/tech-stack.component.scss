@@ -1,14 +1,23 @@
+@media screen and (min-width: 640px) {
+  #tech-stack {
+    margin-left: 6%;
+    margin-right: 6%;
+  }
+}
+
 .logo {
   width: 100%;
-  filter: grayscale(60%);
+  filter: grayscale(80%);
   transition: all .2s ease-in-out;
 
   img {
-    height: 100px;
+    opacity: 0;
+    max-height: 100px;
   }
 
   &:hover {
     filter: grayscale(0%);
+    transform: scale(1.2);
     transition: all .2s ease-in-out;
   }
 }
