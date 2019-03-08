@@ -1,4 +1,14 @@
 <div id="navbar" class="d-flex justify-content-between align-items-center px-4">
   <img id="logo" class="img-fluid" src="/assets/logo.svg" alt="Recursively.co">
-  <i class="material-icons">menu</i>
+  <div class="d-flex flex-column flex-md-row align-items-center">
+    <a class="ml-4 btn d-flex" (click)="showNav = !showNav">
+      <i class="material-icons">{{ showNav ? 'close' : 'menu' }}</i>
+    </a>
+    <div id="navigation" class="d-flex flex-column flex-md-row" *ngIf="showNav">
+      <a href="#">Home</a>
+      <a href="#overview">Overview</a>
+      <a href="#tech-stack">Tech Stack</a>
+      <a href="#subscribe">Subscribe</a>
+    </div>
+  </div>
 </div>
