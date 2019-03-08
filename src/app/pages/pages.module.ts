@@ -5,7 +5,6 @@ import { LandingComponent } from './home/landing/landing.component';
 import { ProgramOverviewComponent } from './home/program-overview/program-overview.component';
 import { TechStackComponent } from './home/tech-stack/tech-stack.component';
 
-import { InViewportModule } from '@thisissoon/angular-inviewport';
 import { SubscribeComponent } from './home/subscribe/subscribe.component';
 
 @NgModule({
@@ -18,7 +17,6 @@ import { SubscribeComponent } from './home/subscribe/subscribe.component';
   ],
   imports: [
     CommonModule,
-    InViewportModule
   ],
   exports: [
     HomeComponent
