@@ -10,9 +10,13 @@ export class TechStackComponent implements OnInit {
   techStack = [
     { path: '/assets/tech-stack/angular.png' },
     { path: '/assets/tech-stack/aws.png' },
+    { path: '/assets/tech-stack/dart.png' },
     { path: '/assets/tech-stack/dev-ops.png' },
     { path: '/assets/tech-stack/docker.png' },
+    { path: '/assets/tech-stack/figma.png' },
+    { path: '/assets/tech-stack/firebase.png' },
     { path: '/assets/tech-stack/flask.png' },
+    { path: '/assets/tech-stack/flutter.png' },
     { path: '/assets/tech-stack/functional-programming.png' },
     { path: '/assets/tech-stack/git.png' },
     { path: '/assets/tech-stack/heroku.png' },
@@ -24,7 +28,9 @@ export class TechStackComponent implements OnInit {
     { path: '/assets/tech-stack/python.png' },
     { path: '/assets/tech-stack/react.png' },
     { path: '/assets/tech-stack/scala.png' },
+    { path: '/assets/tech-stack/scikit-learn.png' },
     { path: '/assets/tech-stack/selenium.png' },
+    { path: '/assets/tech-stack/tensorflow.png' },
     { path: '/assets/tech-stack/ubuntu.png' },
   ];
 
